@@ -1,0 +1,31 @@
+Indonesia - immigration guidance: what was checked (2026-11-15)
+
+Result: nothing obtained. index.tsv is empty (header only) and no download script was written,
+because the only reachable official source carries no guidance to officers.
+
+Checked:
+- https://www.imigrasi.go.id/ (Directorate General of Immigration; robots.txt: allow all).
+  Pages /download/peraturan, /download/produk-hukum, /download/dokumen, /download/publikasi and
+  /produk-hukum/peraturan-menteri. They hold: two Ministry of Law and Human Rights regulations
+  (Permenkumham 11/2024 amending the visa and stay-permit regulation, Permenkumham 19/2024 on
+  passports) and one 2021 ministerial regulation, i.e. legislation (not wanted); annual
+  performance report, service-satisfaction and anti-corruption survey reports, complaint-team
+  decrees, a letter template, a book. The produk-hukum pages show empty tables. The rest of the
+  site is applicant information (visa types, stay permits, FAQ). No circulars, technical
+  instructions or SOPs for officers.
+- https://jdih.imigrasi.go.id/ (the Directorate General's legal documentation network, where
+  Surat Edaran and director-general regulations would be): robots.txt timed out (twice). Its
+  archived robots.txt (Internet Archive captures of 2021-12 and 2022-06) reads
+  "User-agent: * / Disallow: /", so the Internet Archive copies were not used either.
+- https://peraturan.bpk.go.id/ (Audit Board legal database): robots.txt allows everything but
+  admin paths; the first search request was answered with a Cloudflare JavaScript challenge
+  (HTTP 403). Host closed.
+- https://peraturan.go.id/, https://jdihn.go.id/, https://kemenimipas.go.id/ (new Ministry of
+  Immigration and Corrections), https://jdih.kemenimipas.go.id/: robots.txt requests timed out.
+  https://jdih.kemenkumham.go.id/: host name does not resolve.
+
+How much real guidance: Indonesia's immigration authority publishes its laws and ministerial
+regulations, but the director-general circulars (Surat Edaran), technical instructions
+(Petunjuk Teknis) and SOPs by which officers decide visa, stay-permit and border cases are not
+on its public website. They may be in the JDIH legal database, which forbids all crawlers in
+robots.txt and was unreachable from here, so nothing was obtained.
